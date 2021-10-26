@@ -104,6 +104,19 @@ form #button:hover {
     text-align: center;
     font: bold 1em 'Courier New', Courier, monospace;
 }
+#tabela{
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(90grad, rgba(193, 199, 193, 0.829), rgba(163, 160, 189, 0.836));
+    max-width: 430px;
+    border: 2px solid #0468CC;
+    padding: 5px 10px 20px 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font: bold 1em 'Courier New', Courier, monospace;
+
+}
 footer{
     
     background-color: #025bb4;
