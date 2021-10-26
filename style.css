@@ -1,0 +1,122 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(tecgg.jpg);
+    background-size: 100%;
+    
+}
+
+header{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
+    border: 1px groove rgba(245, 245, 245, 0.623);
+    background-color: #0481ff;
+    
+    width: 100%;
+
+}
+
+header > h1{
+    background-color: #0219315b;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
+    
+
+}
+.imc{
+    
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(90grad, rgba(193, 199, 193, 0.829), rgba(163, 160, 189, 0.836));
+    max-width: 430px;
+    border: 2px solid #0468CC;
+    padding: 5px 10px 20px 15px;
+    margin-bottom: 20px;
+    
+    
+}
+.imc h1 {
+    border-bottom: 2px solid #269BFF ;
+    max-width: 420px;
+    padding: 10px 10px 10px 0px;
+    font-size: 2.3em;
+    text-shadow: 2px 2px 5px #ffffff9a;
+}
+.imc form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column; 
+}
+form .info{
+    font-size: 1em;
+    font-weight: bolder;
+    color: rgb(20, 35, 49);
+    text-shadow: 1px 1px 2px rgba(245, 245, 245, 0.466);
+}
+form input{
+    max-width: 410px;
+    background: #EFF4F9;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+form #campo::placeholder{
+    color: rgb(169, 186, 204);
+    font-size: 14px;
+    font-weight: bold;
+}
+form #button {
+    margin-top: 5px;
+    border: none;
+    max-width: 420px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 10px 0;
+    background: #0468CC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form #button:hover {
+    background: #0481ff;
+}
+.tecnologia{
+    
+    margin-left: -10; 
+}
+#res{
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(90grad, rgba(193, 199, 193, 0.829), rgba(163, 160, 189, 0.836));
+    max-width: 430px;
+    border: 2px solid #0468CC;
+    padding: 5px 10px 20px 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font: bold 1em 'Courier New', Courier, monospace;
+}
+footer{
+    
+    background-color: #025bb4;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 0.8em;  
+    margin: 0px;
+    border: 1px groove rgba(245, 245, 245, 0.623);
+}
+footer > p {
+    padding: 4px;
+}
+
+
+
