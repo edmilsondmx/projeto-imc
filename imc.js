@@ -36,6 +36,8 @@ function calcular(){
         sob.style.background = '#EBC48B'
     } else {
         res.innerHTML = ('<p>Preencha os campos acima!</p>')
+        res.style.background = 'red'
+        res.style.color = 'white'
         
     }
     
