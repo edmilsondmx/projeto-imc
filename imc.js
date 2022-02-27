@@ -1,3 +1,14 @@
+function initCursorBlink() {
+    const cursor = document.querySelector('.cursor');
+
+    function animaCursor() {
+        cursor.classList.toggle('ativo');
+    }
+    setInterval(animaCursor, 500);
+};
+
+initCursorBlink();
+
 function calcular(){
     var nome = window.document.getElementsByName('nome')[0];
     var peso = window.document.getElementsByName('peso')[0]
