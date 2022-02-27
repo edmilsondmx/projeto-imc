@@ -245,26 +245,26 @@ tr{
 
 @media screen and (max-width: 700px ) {
     header > h1{
-        font-size: 2em;
+        font-size: 1.7em;
         font-family: 'Press Start 2P', cursive, sans-serif;
         padding: 10px;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
     }
     @keyframes typinganim {
         from{
-            width: 10%;
+            width: 20%;
             font-size: .3em;
         }
         
-        40%{
-            width: 100%;
+        50%{
+            width: 110%;
             position: fixed;
-            font-size: 3em;
+            font-size: 2em;
         }
         
         to{
-            width: 100%;
-            font-size: 2em;
+            width: 90%;
+            font-size: 1.7em;
         }
     }
 }
