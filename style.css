@@ -203,3 +203,68 @@ tr{
     }
 }
 
+@media screen and (max-width: 1200px ) {
+    @keyframes typinganim {
+        from{
+            width: 10%;
+            font-size: .5em;
+        }
+        
+        40%{
+            width: 100%;
+            position: fixed;
+            font-size: 5em;
+        }
+        
+        to{
+            width: 99%;
+            font-size: 3em;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px ) {
+    @keyframes typinganim {
+        from{
+            width: 10%;
+            font-size: .5em;
+        }
+        
+        40%{
+            width: 100%;
+            position: fixed;
+            font-size: 4em;
+        }
+        
+        to{
+            width: 99%;
+            font-size: 3em;
+        }
+    }
+}
+
+@media screen and (max-width: 700px ) {
+    header > h1{
+        font-size: 2em;
+        font-family: 'Press Start 2P', cursive, sans-serif;
+        padding: 10px;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
+    }
+    @keyframes typinganim {
+        from{
+            width: 10%;
+            font-size: .3em;
+        }
+        
+        40%{
+            width: 100%;
+            position: fixed;
+            font-size: 3em;
+        }
+        
+        to{
+            width: 100%;
+            font-size: 2em;
+        }
+    }
+}
