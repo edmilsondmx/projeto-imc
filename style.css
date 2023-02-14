@@ -4,7 +4,7 @@
     margin: 0px;
 }
 body{
-    background-image: url(tecgg.jpg);
+    background-image: url(https://baricare.com.br/wp-content/uploads/2021/05/shutterstock_1220319118-1200x801.jpg);
     background-size: 100%;
     
 }
@@ -27,9 +27,9 @@ header > h1{
     padding: 10px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.534);
 }
-.nome{
+/* .nome{
     animation: typinganim 4s;
-}
+} */
 
 header > div{
     max-width: 320px;
@@ -64,7 +64,7 @@ header > div p{
     margin: auto;
     margin-top: 30px;
     border-radius: 5px;
-    background-image: linear-gradient(90grad, rgba(193, 199, 193, 0.829), rgba(163, 160, 189, 0.836));
+    background-image: linear-gradient(90grad, #c1c7c1d3, #a3a0bdd5);
     max-width: 430px;
     border: 2px solid #0468CC;
     padding: 5px 10px 20px 15px;
